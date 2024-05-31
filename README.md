@@ -32,9 +32,12 @@ Automatic firmware upgrade script for Janam XT3 Scanner. Developed for Ravinia F
 - Open `devices and printers`
   - In control panel, select `View devices and printers` beneath `Hardware and Sound`
 - Ensure scanner is visible as `Android` in device list (you might need to scroll down)
-- Select the scanner
-- Click `Properties` &#8594; `Hardware` at the top &#8594; INCOMPLETE
-- STEPS INCOMPLETE
+- Select the scanner (double click)
+- Click `Hardware` at the top &#8594; `Properties` or double click `Android` under `Name` &#8594; `Change Settings` &#8594; `Update Driver...` &#8594; `Browse my computer for drivers` &#8594; `Let me pick from a list of available drivers on my computer` &#8594; `Show All Devices` &#8594; `Have Disk...` &#8594; `Browse...`
+- Navigate to the file in the usb_driver folder called `android_winusb.inf`, click on it, then press `Open`
+- Press `OK`
+- Double click `Android Bootloadeer Interface` - it should be the middle option
+- Click `Yes` &#8594; `Close` &#8594; `Close` &#8594; `OK`
 
 #### Automatically
 
@@ -42,8 +45,9 @@ Automatic firmware upgrade script for Janam XT3 Scanner. Developed for Ravinia F
 
 ### Update scanner firmware
 
-- Launch `RunThis.bat` in firmware folder
+- Double click `RunThis.bat` in firmware folder
 - Wait for process to finish and scanner to reboot
+- Press any key to close the command prompt window
 
 ### Clean up
 
