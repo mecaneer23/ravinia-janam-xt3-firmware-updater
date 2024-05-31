@@ -1,6 +1,4 @@
-# Janam XT3 Scanner Firmware Updater
-
-Automatic firmware upgrade script for Janam XT3 Scanner. Developed for Ravinia Festival.
+# Janam XT3 Scanner Firmware Update Instructions
 
 ## Required hardware
 
@@ -12,9 +10,6 @@ Automatic firmware upgrade script for Janam XT3 Scanner. Developed for Ravinia F
 
 - Download and unzip [scanner driver](https://developer.android.com/studio/run/win-usb)
 - Download and unzip [fastboot firmware package](https://janam-assets.azureedge.net/assets/XT3/FSBT/91.16_20231011.zip)
-- Download and install [AutoIt windows automation software](https://www.autoitscript.com/files/autoit3/autoit-v3-setup.zip)
-  - Make sure that default double click behavior is `run` rather than `edit`
-- Clone or download this GitHub repository
 
 ## Per-scanner usage
 
@@ -27,8 +22,6 @@ Automatic firmware upgrade script for Janam XT3 Scanner. Developed for Ravinia F
 
 ### Update scanner driver
 
-#### Manually
-
 - Open `devices and printers`
   - In control panel, select `View devices and printers` beneath `Hardware and Sound`
 - Ensure scanner is visible as `Android` in device list (you might need to scroll down)
@@ -38,10 +31,6 @@ Automatic firmware upgrade script for Janam XT3 Scanner. Developed for Ravinia F
 - Press `OK`
 - Double click `Android Bootloadeer Interface` - it should be the middle option
 - Click `Yes` &#8594; `Close` &#8594; `Close` &#8594; `OK`
-
-#### Automatically
-
-- Double click `update_driver.au3`
 
 ### Update scanner firmware
 
