@@ -17,7 +17,7 @@
 
 - Put scanner into fastboot mode
   - Turn scanner off
-  - While holding volume down + home, press and hold power button until fastboot screen is visible (do not advance past this screen)
+  - While holding <kbd>volume down</kbd> + <kbd>home</kbd>, press and hold <kbd>power</kbd> button until fastboot screen is visible (do not advance past this screen)
 - Connect scanner to computer using wire
 
 ### Update scanner driver
@@ -26,8 +26,8 @@
   - In control panel, select `View devices and printers` beneath `Hardware and Sound`
 - Ensure scanner is visible as `Android` in device list (you might need to scroll down)
 - Select the scanner (double click)
-- Click `Hardware` at the top &#8594; `Properties` or double click `Android` under `Name` &#8594; `Change Settings` &#8594; `Update Driver...` &#8594; `Browse my computer for drivers` &#8594; `Let me pick from a list of available drivers on my computer` &#8594; `Show All Devices` &#8594; `Have Disk...` &#8594; `Browse...`
-- Navigate to the file in the usb_driver folder called `android_winusb.inf`, click on it, then press `Open`
+- Click `Hardware` at the top &#8594; `Properties` (or double click `Android` under `Name`) &#8594; `Change Settings` &#8594; `Update Driver...` &#8594; `Browse my computer for drivers` &#8594; `Let me pick from a list of available drivers on my computer` &#8594; `Show All Devices` &#8594; `Have Disk...` &#8594; `Browse...`
+- Navigate to the file in the `usb_driver` folder called `android_winusb.inf`, click on it, then press `Open`
 - Press `OK`
 - Double click `Android Bootloader Interface` - it should be the middle option
 - Click `Yes` &#8594; `Close` &#8594; `Close` &#8594; `OK`
